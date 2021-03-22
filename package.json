@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
     "parcel": "^2.0.0-beta.2"
   },
   "name": "quizgame-Icebrave",
@@ -555,7 +556,8 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
